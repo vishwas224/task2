@@ -57,6 +57,7 @@ class RazorPayWeb extends StatelessWidget {
       element.style.border = 'none';
       return element;
     });
+    
     return Scaffold(
       body: Builder(builder: (BuildContext context) {
           return Container(
